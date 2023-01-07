@@ -1,0 +1,153 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 39px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background: linear-gradient(113.65deg, #57E4D3 22.46%, #57A9E4 92.48%);
+    margin: 0;
+    padding: 0;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+
+.logoBox .logo {
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    width: 35px;
+    margin-right: 20px;
+    padding: 3px;
+}
+
+header>nav>a {
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+nav .kab{
+    font-size: 23px;
+}
+
+.logoBox span {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+header .boxi a{
+    font-size: 18px;
+    font-family: 'montserrat';
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+header .boxi .trus{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+header .boxi{
+    display: flex;
+    align-items: center;
+}
+
+.main .price {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+.main .par{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 120px;
+}
+
+.main .but{
+    background: linear-gradient(131.22deg, #C3C63D 22.42%, #5BA610 78.43%);
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    padding: 20px;
+    margin-left: 110px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 400px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .2s;
+}
+
+.but:hover {
+    transform: scale(1.03);
+}
+
+.main .but .kup{
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.childrenBox {
+    position: relative;
+    margin-right: 50px;
+    ;
+}
+
+.childrenBox .elipse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    filter: blur(125px);
+}
+
+.childryn {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
