@@ -12,6 +12,7 @@ body {
     background: linear-gradient(113.65deg, #57E4D3 22.46%, #57A9E4 92.48%);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 .logoBox {
